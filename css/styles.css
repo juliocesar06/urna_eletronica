@@ -1,0 +1,209 @@
+@keyframes pisca {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+/* fundo base*/
+#urna {
+  width: 1000px;
+  height: 550px;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(223, 219, 212);
+}
+/*propriedades das telas*/
+#show {
+  background-color: ivory;
+  position: absolute;
+  width: 510px;
+  height: 420px;
+  margin: 50px;
+  border: 2px solid rgb(12, 12, 12);
+  border-left: 4px solid rgb(12, 12, 12);
+}
+/*tela voto*/
+.d-1-1 {
+  width: 250px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+.d-1-2 {
+  width: 250px;
+  height: 60px;
+  text-align: center;
+}
+.d-1-2 {
+  text-align: center;
+}
+.d-1-3 {
+  width: 250px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  margin: inherit;
+  text-align: end;
+  margin-left: 18px;
+}
+.numeros {
+  width: 40px;
+  height: 50px;
+  font-size: xx-large;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  text-justify: auto;
+}
+.numeros.pisca {
+  animation-name: pisca;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.d-1-4 {
+  width: 270px;
+  height: 100px;
+  text-align: left;
+}
+.d-2 {
+  border-top: 2px solid grey;
+  margin-top: 30px;
+  width: 510px;
+  height: 30px;
+}
+.d-2 p {
+  margin-top: 0px;
+  text-align: left;
+}
+
+.d-1-right {
+  position: relative;
+  width: 259px;
+  height: 350px;
+  float: right;
+  margin-top: -300px;
+}
+.pref {
+  position: absolute;
+  height: 20px;
+  width: 220px;
+  margin-left: 40px;
+  margin-top: 125px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.ver {
+  position: absolute;
+  height: 35px;
+  width: 180px;
+  margin-left: 78px;
+  margin-top: 295px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.img-1 img {
+  width: 220px;
+  height: 175px;
+  float: right;
+  margin-top: -30px;
+}
+.img-2 img {
+  width: 180px;
+  height: 155px;
+  float: right;
+}
+/* teclado de numeros e botoes*/
+#logo {
+  position: absolute;
+  width: 300px;
+  height: 98px;
+  margin-bottom: auto;
+  margin-top: auto;
+  display: block;
+  margin-left: 45px;
+
+  font-size: 40px;
+  border: 2px solid rgb(156, 152, 152);
+}
+p {
+  margin-left: 20px;
+}
+#base {
+  text-align: -webkit-center;
+  position: absolute;
+  margin-left: 563px;
+  margin-top: 52px;
+  width: 395px;
+  height: 450px;
+  text-align: center;
+  justify-content: center;
+}
+table {
+  background-color: rgb(53, 45, 45);
+  border: 2px solid black;
+  width: 295px;
+  height: 350px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.num {
+  width: 50px;
+  height: 30px;
+  background-color: rgb(53, 45, 45);
+  color: white;
+  font-weight: bold;
+  border-left: 1px solid rgb(12, 12, 12);
+  border-bottom: 5px solid rgb(12, 12, 12);
+  justify-content: center;
+}
+#z {
+  position: relative;
+  left: 90px;
+}
+#nulo {
+  width: 55px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-left: 1px solid rgb(156, 152, 152);
+  border-bottom: 5px solid rgb(156, 152, 152);
+  font-size: 11px;
+}
+#corrige {
+  width: 55px;
+  height: 40px;
+  background-color: rgb(243, 161, 9);
+  color: black;
+  font-weight: bold;
+  border-left: 1px solid rgb(155, 112, 12);
+  border-bottom: 5px solid rgb(155, 112, 12);
+  font-size: 11px;
+}
+#confirma {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(76, 192, 76);
+  color: black;
+  font-weight: bold;
+  border-left: 1px solid rgb(41, 119, 41);
+  border-bottom: 5px solid rgb(41, 119, 41);
+  margin: auto;
+  font-size: 11px;
+}
